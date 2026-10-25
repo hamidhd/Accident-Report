@@ -1,0 +1,20 @@
+[package]
+name = "danialsteel-hse"
+version = "1.0.0"
+description = "Danial Steel Factory Incident Reporting System"
+authors = ["Danial Steel HSE Team"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "danialsteel_hse_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

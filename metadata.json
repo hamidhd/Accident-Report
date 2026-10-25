@@ -1,0 +1,6 @@
+{
+  "name": "سامانه مدیریت و گزارش‌دهی حوادث دانیال استیل",
+  "description": "سیستم جامع ثبت حوادث کارخانه در ۳ شیفت، محاسبه شاخص‌های FSI، AFR و ASR، نوتیفیکیشن سرپرستان، هشدار بحرانی و خروجی فرم استاندارد F-HS-07-00",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
