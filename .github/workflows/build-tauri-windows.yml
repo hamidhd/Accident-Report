@@ -73,8 +73,8 @@ jobs:
           else
             npm install --legacy-peer-deps --include=optional
           fi
-          # Fix for npm issue #4828: Force install native Windows bindings for Tailwind v4 (LightningCSS), Rolldown, and Rollup
-          npm install --no-save lightningcss-win32-x64-msvc @rolldown/binding-win32-x64-msvc @rollup/rollup-win32-x64-msvc --legacy-peer-deps || true
+          # Fix for npm issue #4828: Force install native Windows bindings for Tailwind v4 (Oxide & LightningCSS), Rolldown, and Rollup
+          npm install --no-save @tailwindcss/oxide-win32-x64-msvc lightningcss-win32-x64-msvc @rolldown/binding-win32-x64-msvc @rollup/rollup-win32-x64-msvc --legacy-peer-deps || true
 
       - name: Build Web Application
         run: npm run build
