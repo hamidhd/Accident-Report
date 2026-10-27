@@ -79,6 +79,10 @@ jobs:
       - name: Build Web Application
         run: npm run build
 
+      - name: Ensure npm is used by Tauri Action
+        shell: bash
+        run: rm -f bun.lock bun.lockb yarn.lock pnpm-lock.yaml
+
       - name: Build Tauri 2 Application & Create Release
         uses: tauri-apps/tauri-action@v0
         env:
