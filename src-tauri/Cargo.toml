@@ -1,6 +1,6 @@
 [package]
 name = "danialsteel-hse"
-version = "1.2.2"
+version = "1.2.3"
 description = "Danial Steel Factory Incident Reporting System"
 authors = ["Danial Steel HSE Team"]
 edition = "2021"
